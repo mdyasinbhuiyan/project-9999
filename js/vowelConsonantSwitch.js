@@ -1,4 +1,4 @@
-var letter = prompt();
+var letter = prompt('Enter Letter');
 letter = letter.toLowerCase();
 
 switch (letter){
