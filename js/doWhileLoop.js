@@ -27,7 +27,15 @@ document.write("<br/>");
 for(var i = 1; i <= 20; i++){
   if(i == 10){
     continue; 
-    //break;
+  }
+  document.write(i + " ")
+}
+
+document.write("<br/>");
+
+for(var i = 1; i <= 20; i++){
+  if(i == 10){
+    break;
   }
   document.write(i + " ")
 }
