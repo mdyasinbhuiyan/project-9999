@@ -24,3 +24,19 @@ subtraction(50,20);
 division(60,2);
 multiplication(15,2);
 modulas(40,70)
+
+
+function calc(x,y){
+  let plus = x + y;
+  let min = x - y;
+  let gon = x * y;
+  let divide = x / y;
+  let modulas = x % y;
+  
+  document.write(x + " + " + y + " = " + plus + "<br/>");
+  document.write(x + " - " + y + " = " + min + "<br/>");
+  document.write(x + " * " + y + " = " + gon + "<br/>");
+  document.write(x + " / " + y + " = " + divide + "<br/>");
+  document.write(x + " % " + y + " = " + modulas + "<br/>");
+}
+calc(Number(prompt("Enter First Number")),Number(prompt("Enter First Number")))
